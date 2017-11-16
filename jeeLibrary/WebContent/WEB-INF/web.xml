@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>jeeLibrary</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>acceuil</servlet-name>
+    <servlet-class>fr.afpa.jeelibrary.web.AppTablBord</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>books</servlet-name>
+    <servlet-class>fr.afpa.jeelibrary.web.AppBook</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>libraries</servlet-name>
+    <servlet-class>fr.afpa.jeelibrary.web.AppLibrary</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>subscribers</servlet-name>
+    <servlet-class>fr.afpa.jeelibrary.web.AppSubscriber</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>books</servlet-name>
+    <url-pattern>/Book/*</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>acceuil</servlet-name>
+    <url-pattern>/Acceuil/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>subscribers</servlet-name>
+    <url-pattern>/Subscriber/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>libraries</servlet-name>
+    <url-pattern>/Library/*</url-pattern>
+  </servlet-mapping>
+</web-app>

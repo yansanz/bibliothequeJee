@@ -1,0 +1,24 @@
+label{
+	font-weight: bold;
+}
+
+h2{
+	font-family: Arial; margin-left: 30%; text-decoration: underLine; color: red;
+}
+#txtN{
+	background-color: red; color : white;
+}
+#txtP{
+	background-color: red; color :white;
+}
+body{
+	 font-family: Arial; background-repeat: no-repeat;  background-image: url("img/bookBG.jpg");
+}
+#btnReset{
+	margin-left: 25%; background-color: red; border-radius: 10px; color :white;
+	border-color: black; width : 70px;
+}
+#btnValid{
+	margin-left: 5%; background-color: red; border-radius: 10px; color :white;
+	border-color: black; width : 70px;
+}

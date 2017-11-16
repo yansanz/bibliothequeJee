@@ -1,0 +1,48 @@
+table{
+	 margin :auto;
+	border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th{
+	width:100px;  padding: 10px; text-align: center;background-color: grey;
+	color : white;
+}
+td{
+	 padding: 10px; text-align: center;background-color: lightGrey;
+}
+h2{
+	font-family: Arial; color:red;margin-left: 30%; text-decoration: underline;
+}
+a{
+	font-family: Arial;color :blue;
+}
+body{
+	 font-family: Arial; background-repeat: no-repeat;  background-image: url("img/bookBG.jpg");
+}
+#btnSub{
+	margin-left: 35%;
+}
+#btnReset{
+	margin-left: 5%; background-color: red; border-radius: 10px; color :white;
+	border-color: black; width : 70px;
+}
+#btnAddSub{
+	margin-left:25%; background-color: red; border-radius: 10px; color :white;
+	border-color: black; width : 120px;
+}
+#btnBook{
+	margin-left: 40%;
+}
+#txtS{
+	background-color: red; color: white;
+}
+#btnValid{
+	margin-left: 5%; background-color: red; border-radius: 10px; color :white;
+	border-color: black; width : 70px;
+}
+#btnAdd{
+	float: right; background-color: red; border-radius: 10px; color :white;
+	border-color: black; width : 90px;
+}

@@ -1,0 +1,187 @@
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+body{
+	display : table; width:100%;
+	 font-family: Arial; background-repeat: no-repeat;  background-image: url("../img/bookBG.jpg");
+}
+footer{
+	display: table-row;
+	width : 100%;
+	height : 50px;
+}
+#btnContact{
+	margin-left:10%; background-color: lightBlue; border-color: black;  border-radius: 20px; 
+}
+#btnCondUtil{
+	margin-left:10%; background-color: lightBlue; border-color: black;  border-radius: 20px; 
+}
+#btnInfLegal{
+	margin-left:10%; background-color: lightBlue; border-color: black;  border-radius: 20px; 
+}
+#pdp{
+	background-color: rgba(255, 255, 255, 0.5);height: 50px;
+}
+#contact{
+	color: blue;
+}
+#enter{
+	margin-left: 39%;  border-radius: 10px; margin-top:20%;
+
+
+width: 227px;
+height: 227px;
+color:blue;
+
+}
+table{
+	 margin :auto;
+	border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th{
+	width:100px;  padding: 10px; text-align: center;background-color: grey;
+	color : white;
+}
+td{
+	 padding: 10px; text-align: center;background-color: lightGrey;
+}
+h2{
+ color : red; text-decoration: underLine;
+}
+#btnValid{
+	margin-left: 10%; background-color: red; border-radius: 10px; color :white;
+	border-color: black; width : 70px;
+}
+#btnReset{
+	margin-left: 5%; background-color: red; border-radius: 10px; color :white;
+	border-color: black; width : 70px;
+}
+table{
+	background-color: lightGrey;
+}
+#infoZon{
+	background-color: white; float : right; width :65%;
+}
+#btnPop{
+margin-left:60%; background-color: lightBlue; border-color: black;  border-radius: 20px; 
+}
+#btnPop2{
+ background-color: lightBlue; border-color: black;
+   border-radius: 20px; 
+}
+#addBook{
+margin: auto; text-indent : 10px; font-family: Arial;margin-top: -23px;
+ background-color: rgba(0, 0, 255, 0.1);
+}
+#txWarning{
+	background-color: red ; color :white; border-radius: 5px;
+}
+#txXarningInfo{
+	margin-left: 10%; background-color: lightBlue ; 
+	color :black; border-radius: 5px; font-weight: bold;
+}
+#titrModifSub{
+	text-align: center;
+}
+#txInfo{
+	background-color: rgba(0, 0, 255, 0.1);
+ color :blue; border-radius: 5px;
+	border-style: dotted; border-color: red; margin-left: 30%;
+}
+#champAuteur{
+	margin-left:10%; text-indent : 10px; 
+	font-family: Arial;margin-top: -2%;  background-color: rgba(0, 0, 255, 0.1);
+}
+#champRech{
+	background-color: rgba(0, 0, 255, 0.1);width: 30%;
+}
+#titreRech{
+	text-align: center;
+}
+label{
+	font-weight: bold;
+}
+#gallery{
+	float: right;
+}
+#gallery img{ flex-direction: column; display: flex;
+	    border: 2px solid black;
+	    margin-left: 3%;
+	    padding: 5px;
+	}
+	#gallery img:hover{
+	    transition: all .3s ease-in-out;
+	    transform: scale(.9) rotate(-5deg);
+	    border: 1px solid red;
+	    cursor: pointer;
+	}
+#btnAddSub{
+	margin-left: 10%; background-color: red; border-radius: 10px; color :white;
+	border-color: black; width : 140px;
+}
+#commandes{
+	margin-top: 5%;
+}
+#conteneir{
+	display: flex;
+}
+
+#affich{
+	margin-left: 5%;
+}
+.popup {
+    position: relative;
+     display: inline-block;
+    cursor: pointer;
+     max-width: 100%;
+}
+
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 660px;
+    background-color: #555;
+    color: #fff;
+
+    border-radius: 6px;
+    padding: 8px 0;
+    position:absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+  
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+ 
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}

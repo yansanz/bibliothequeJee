@@ -1,0 +1,43 @@
+body{
+	background-color: lightYellow; font-family: Arial;
+}
+#enter{
+	margin-left: 39%;  border-radius: 10px; 
+
+background-image: url("img/user.png");
+width: 227px;
+height: 227px;
+color:blue;
+
+}
+h2{
+	margin: auto; color : red; text-decoration: underLine;
+}
+#btnValid{
+	margin-left: 30%;
+}
+
+	#gallery img{
+	    border: 2px solid black;
+	    margin-left: 3%;
+	    padding: 5px;
+	}
+
+	#gallery img:hover{
+	    transition: all .3s ease-in-out;
+	    transform: scale(.9) rotate(-5deg);
+	    border: 1px solid red;
+	    cursor: pointer;
+	}
+#gallery2 img{
+	    border: 2px solid black;
+	    margin-left: 3%;
+	    padding: 5px;
+	}
+
+	#gallery2 img:hover{
+	    transition: all .3s ease-in-out;
+	    transform: scale(.9) rotate(-5deg);
+	    border: 1px solid red;
+	    cursor: pointer;
+	}

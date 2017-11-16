@@ -1,0 +1,23 @@
+table{
+	background-color: lightGrey; margin: auto;
+	}
+
+h2{
+	font-family: Arial; color:red;margin-left: 30%; text-decoration: underline;
+}
+a{
+	font-family: Arial; color :blue;
+}
+
+#btnAdd{
+	margin-left: 22%;  background-color: red; color: white;
+}
+#btnSub{
+	margin-left: 40%;
+}
+#btnLib{
+	margin-left: 5%;
+}
+#btnReset{
+	margin-left: 10%;
+}

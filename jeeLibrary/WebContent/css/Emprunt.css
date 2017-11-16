@@ -1,0 +1,159 @@
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+body{
+	display : table; width:100%;
+	 font-family: Arial; background-repeat: no-repeat;  background-image: url("../img/bookBG.jpg");
+}
+footer{
+	display: table-row;
+	width : 100%;
+	height : 50px;
+}
+#btnContact{
+	margin-left:10%; background-color: lightBlue; border-color: black;  border-radius: 20px; 
+}
+#btnCondUtil{
+	margin-left:10%; background-color: lightBlue; border-color: black;  border-radius: 20px; 
+}
+#btnInfLegal{
+	margin-left:10%; background-color: lightBlue; border-color: black;  border-radius: 20px; 
+}
+#pdp{
+	background-color: rgba(255, 255, 255, 0.5);height: 50px;
+}
+#contact{
+	color: blue;
+}
+#enter{
+	margin-left: 39%;  border-radius: 10px; margin-top:20%;
+
+
+width: 227px;
+height: 227px;
+color:blue;
+
+}
+#zonEmprun{
+	text-indent : 10px; width:70%;
+	font-family: Arial;  background-color: rgba(0, 0, 255, 0.1);
+}
+#zonReturn{
+	 text-indent : 10px; width:35%;
+	font-family: Arial;  background-color: rgba(0, 0, 255, 0.1);
+}
+#btnSub{
+	float : right;
+}
+#btnBook{
+	float: right;
+}
+label{
+	font-weight: bold;
+}
+#labelEmprun{
+	 margin-left: 5%;
+}
+#labelRetur{
+	font-weight: bold; margin-left: 10%;
+}
+h2{
+	margin-left:30%; color : red; text-decoration: underLine;
+}
+#btnValid{
+	margin-left: 32%; background-color: red; border-radius: 10px; color :white;
+	border-color: black; width : 140px;
+}
+#btnReset{
+	margin-left: 5%; background-color: red; border-radius: 10px; color :white;
+	border-color: black; width : 70px;
+}
+table{
+	background-color: lightGrey;
+}
+#btnPop{
+margin-left:10%; background-color: lightBlue; border-color: black;  border-radius: 20px; 
+}
+#btnPop2{
+margin-left:50%; background-color: lightBlue; border-color: black;  border-radius: 20px; 
+}
+#txWarning{
+	margin-left: 10%; background-color: lightBlue ; 
+	color :black; border-radius: 5px;  
+}
+#btnRestituer{
+	margin-left: 32%; background-color: red; border-radius: 10px; color :white;
+	border-color: black; width : 140px;
+}
+#infoTabl{
+	background-color: white; width: 30%; float : right;
+	
+}
+table{
+	 margin :auto;
+	border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th{
+	width:100px;  padding: 10px; text-align: center;background-color: grey;
+	color : white;
+}
+td{
+	 padding: 10px; text-align: center;background-color: lightGrey;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+     max-width: 100%;
+}
+
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 660px;
+    background-color: #555;
+    color: #fff;
+
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+  
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+ 
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
